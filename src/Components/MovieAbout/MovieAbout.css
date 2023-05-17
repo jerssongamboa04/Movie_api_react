@@ -1,0 +1,95 @@
+.top-cartelera-background {
+    height: 750px;
+    opacity: 0.8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+.top-cartelera-overlay {
+    padding: 40px;
+    color: white;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    text-align: start;
+    align-items: flex-start;
+}
+
+.top-cartelera-overlay h1 {
+    margin: 0px;
+    font-size: 25px;
+    color: yellow;
+}
+
+.top-cartelera-overlay p {
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.btn-ver-trailer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: black;
+    border: solid 3px white;
+}
+
+.reproductor {
+    width: 100%;
+    height: 380px;
+}
+
+.contenedor-youtube {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-video {
+    width: 100%;
+    height: 100%;
+}
+
+.btn-cerrar-trailer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: darkred;
+    border: solid 3px white;
+}
+
+.contenedor-genero{
+display: flex;
+gap: 10px;
+}
+
+.contenedor-genero button{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: black;
+    border: solid 3px white;
+    color: white;
+
+}
+
+.btn-ver-trailer:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    opacity: 0.9;
+}
+
+.btn-cerrar-trailer:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    opacity: 0.9;
+
+}

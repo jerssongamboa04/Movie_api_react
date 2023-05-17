@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Lato:ital,wght@1,700&display=swap');
+
+
+.container-busqueda {
+    height: 50px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: brown;
+    padding-right: 20px;
+
+}
+
+.container-busqueda input {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color:antiquewhite;
+}
+
+.form-busqueda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-enviar{
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(47, 101, 151);
+}
+
+.title-name{
+    font-family: 'Lato', sans-serif;
+    color:gold;
+    font-weight: 600;
+    font-weight: bold;
+    padding-left: 20px;
+
+}

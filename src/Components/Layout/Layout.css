@@ -1,0 +1,36 @@
+
+.link-layout {
+    text-decoration: none;
+    list-style: none;
+}
+
+.container-layout ul {
+    display: flex;
+    gap: 30px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+    font-weight: bold;
+}
+
+.link-layout a {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.link-layout a:hover {
+    color:black;
+    opacity: 0.9;
+    font-size: 28px;
+}
+
+
+.container-layout {
+    height: 50px;
+    background-color:brown;
+    display: flex;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: center;
+}

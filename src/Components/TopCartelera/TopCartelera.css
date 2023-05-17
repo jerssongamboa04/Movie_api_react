@@ -1,0 +1,75 @@
+.top-cartelera-background {
+    height: 600px;
+    opacity: 0.8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+
+.title-popular {
+    color: white;
+}
+
+.top-cartelera-overlay {
+    padding: 40px;
+    color: white;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    text-align: start;
+    align-items: flex-start;
+}
+
+.top-cartelera-overlay h2 {
+    margin: 0px;
+    font-size: 25px;
+    color: yellow;
+}
+
+.top-cartelera-overlay p {
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.btn-ver-button {
+
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: black;
+    border: solid 3px white;
+}
+
+
+.btn-ver-button a {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.card-peliculas p , h3{
+    margin: 0px;
+}
+
+.btn-favorito {
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: white;
+
+}
+
+.btn-favorito:hover{
+
+    transform: scale(1.05);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.btn-ver-button:hover{
+
+    transform: scale(1.05);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    opacity: 0.9;
+
+
+}

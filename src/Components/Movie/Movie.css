@@ -1,0 +1,36 @@
+
+.container-peliculas-encontradas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 30px;
+}
+
+.card-peliculas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
+    background-color:brown;
+}
+
+.card-peliculas-img{
+    height: 600px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card-peliculas h3 {
+
+    color: white;
+
+}
+
+.title-buscado {
+
+    color: white;
+}
